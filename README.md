@@ -4,6 +4,12 @@ Generates a working multi-stage Dockerfile from your actual project —
 Railway's `nixpacks` (Go) is the popular incumbent for "auto-detect my
 stack and give me a Dockerfile," with no standalone Rust competitor.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
